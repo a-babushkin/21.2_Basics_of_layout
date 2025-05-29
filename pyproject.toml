@@ -1,0 +1,19 @@
+[project]
+name = "21-2-basics-of-layout"
+version = "0.1.0"
+description = "Домашнее задание 21.2 по Основам верстки"
+authors = [
+    {name = "a-babushkin-nb",email = "babushkinflyer@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "21"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
